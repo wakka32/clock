@@ -1,14 +1,14 @@
 public class Clock {
-    public class Numberdisplay
+    public class NumberDisplay
     {
-        private Numberdisplay hours;
-        private Numberdisplay minutes;
-        private String displayString;
+        private NumberDisplay hours;
+        private NumberDisplay minutes;
+        private String DisplayString;
 
-        public Numberdisplay()
+        public NumberDisplay()
         {
-            hours = new Numberdisplay(24);
-            minutes = new Numberdisplay(60);
+            hours = new NumberDisplay(24);
+            minutes = new NumberDisplay(60);
             updateDisplay(); {
 }
         }
@@ -21,7 +21,7 @@ public class Clock {
     void setTime (int hour, int minute){
 
     }
-    String getTime(){
+    void getTime(){
 
     }
     void updateDisplay(){
